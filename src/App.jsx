@@ -9,11 +9,12 @@ import {
   Subscribe,
   Footer,
 } from "./sections/index.js";
+import Nav from "./compoments/Nav.jsx";
 
 const App = () => {
   return (
     <main className=" relative">
-      {/* Nav */}
+      <Nav />
       <section className=" xl:padding-1 wide:padding-r padding-b w-full h-full">
         <Hero />
       </section>
